@@ -26,7 +26,7 @@ class PresentationGeneratorApp:
 
     def generate_and_save(self):
         # Cria uma instância da classe PresentationGenerator
-        presentation_generator = PresentationGenerator(self.get_data(), "nome_arquivo", "caminho_imagem_fundo.png")
+        presentation_generator = PresentationGenerator(self.get_data(), "nome_arquivo")
         
         # Gera a apresentação
         presentation_generator.generate_presentation()

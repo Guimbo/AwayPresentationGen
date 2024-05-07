@@ -1,5 +1,6 @@
 import os
 import tkinter as tk
+from tkinter import PhotoImage
 from tkinter import messagebox
 from tkinter import filedialog
 from pptx import Presentation
@@ -10,7 +11,7 @@ class PresentationGenerator:
     def __init__(self, data, file_name, background_image_path):
         self.data = data
         self.file_name = file_name
-        self.background_image_path = background_image_path
+        self.background_image_path = PhotoImage(file="background_image.png")
 
         # Obtém o caminho de destino das apresentações
         self.dest_path = self.get_dest_path()
