@@ -1,1 +1,24 @@
 .DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environment
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and cache
+*.log
+.cache/
+logs/
+
+# Build files
+build/
+dist/
+*.egg-info/
